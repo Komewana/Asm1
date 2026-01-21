@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs / uploads / runtime data
+uploads/
+outputs/
+static/last.jpg
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights (nếu nặng thì KHÔNG nên đẩy thẳng)
+best*.pt
+*.pt
+
+# Secrets / config local
+.env
+.env.*
