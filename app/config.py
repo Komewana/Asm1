@@ -23,7 +23,7 @@ LAST_RAW = os.path.join(STATIC_DIR, "last.jpg")
 
 # --- CẤU HÌNH GEMINI AI ---
 # Key của bạn (đã lấy từ ảnh bạn gửi)
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBnCYd7d9tz0NHG9hiNiKY8vhrqK9B35CM") 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "***********************") 
 
 # Sửa thành bản 1.5-flash (bản ổn định nhất hiện nay)
 GEMINI_MODEL = "gemini-2.5-flash" 
